@@ -1,0 +1,202 @@
+/* Gps.css */
+
+/* 기본 스타일링 */
+#wrap {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1200px;
+  }
+  
+  .conWrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .submenu {
+    width: 20%;
+    background-color: #f8f8f8;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  #subNav {
+    margin: 0;
+  }
+  
+  .subTitle {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .submenu ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .submenu ul li {
+    margin-bottom: 10px;
+  }
+  
+  .submenu ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1em;
+    display: block;
+    padding: 8px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .submenu ul li a:hover,
+  .submenu ul li a.on {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  #contents {
+    width: 75%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #007bff;
+  }
+  
+  iframe {
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+  
+  .mapBx {
+    background-color: #f8f8f8;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .mapBx ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 15px 0;
+  }
+  
+  .mapBx li {
+    margin-bottom: 10px;
+  }
+  
+  .mapAdd, .mapTel, .mapBus {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .mapBx p {
+    margin: 0;
+  }
+  
+  .pdTop15 {
+    margin-top: 15px;
+  }
+  
+  #quick_menu {
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .subQuickBx ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .subQuickBx ul li {
+    margin-bottom: 10px;
+  }
+  
+  .subQuickBx ul li a {
+    display: block;
+    border-radius: 5px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .subQuickBx ul li a img {
+    width: 100%;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+  }
+  
+  .subQuickBx ul li a:hover img {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* 미디어 쿼리 - 반응형 스타일링 */
+  
+  /* 작은 태블릿 (768px 이하) */
+  @media (max-width: 768px) {
+    .conWrap {
+      flex-direction: column;
+    }
+  
+    .submenu {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    #contents {
+      width: 100%;
+    }
+  
+    #quick_menu {
+      position: static;
+      margin-top: 20px;
+    }
+  }
+  
+  /* 모바일 (480px 이하) */
+  @media (max-width: 480px) {
+    #wrap {
+      padding: 10px;
+    }
+  
+    .subTitle {
+      font-size: 1.1em;
+    }
+  
+    .title {
+      font-size: 1.2em;
+      text-align: center;
+    }
+  
+    iframe {
+      height: 300px;
+    }
+  
+    .mapBx {
+      padding: 10px;
+    }
+  
+    .mapAdd, .mapTel, .mapBus {
+      font-size: 1em;
+    }
+  
+    .submenu ul li a {
+      font-size: 0.9em;
+      padding: 6px;
+    }
+  }
+  
+
