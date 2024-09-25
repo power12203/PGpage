@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# 김정길의 Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## project 소개
 
-## Available Scripts
+이 프로젝트는 여행사 모방을 목적을 두었으며 AirbnbUi를 참고하였습니다
 
-In the project directory, you can run:
+## Ui소개
 
-### `npm start`
+- main page
+  <img src="https://github.com/power12203/popol/assets/160206287/9798becf-df75-4e2a-8dee-fed13f7bac69 " width="600" height="400"/>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- project page
+  <img src="https://github.com/power12203/popol/assets/160206287/74bb72ce-54d1-46d9-9e9e-9aa791343eb4" width="600" height="400"/>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 기능
 
-### `npm test`
+- 로그인/회원가입
+- slick 라이브러리를 이용한 카드리스트/슬라이드
+- 게시판 기능
+- 글쓰기 수정 삭제
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 설치및 실행 방법
 
-### `npm run build`
+[서버 실행 code](https://github.com/power12203/server)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+2. Start the development server:
+   ```bash
+   npm start
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 7. 기술 스택 (Tech Stack)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Tech Stack
 
-### `npm run eject`
+- HTML
+- CSS
+- JavaScript
+- React.js
+- [Redux](https://github.com/power12203/Redux-main)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```markdown
+## 프로젝트 구조
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+|-- public/
+| |-- index.html
+|-- src/
+| |-- assets/
+| | |--footerImg/푸터에있는 소셜이미지
+| |-- common/레이아웃 구성
+| |-- components/
+| | |-- auth/로그인/회원가입
+| | |-- main/메인 구성
+| | |-- post/게시판구성
+| | |-- postList/게시판리스트
+| | |-- write/글쓰기구성
+| |-- data/데이터 json
+| |-- imag/메인 아래 슬라이드 이미지
+| |-- img/메인 카드리스트 이미지
+| |-- modules/Redux
+| | |-- api/
+| |-- page/페이지구성
+| |-- App.js
+| |-- index.js
+|-- package.json
+|-- README.md
+```
+"# PGpage" 
